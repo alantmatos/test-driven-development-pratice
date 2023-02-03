@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.counter-container {
+    background-color: rgb(41, 138, 138);
+}
+
+.counter-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    border-radius: 3rem;
+}
+
+.counter-btn :hover {
+    background-color: gray;
+}
+
+input {
+    height: 50px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
